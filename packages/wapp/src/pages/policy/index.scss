@@ -1,0 +1,24 @@
+.policy-container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+
+.permission-container {
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  left: 10vw;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  font-size: 0.6rem;
+  bottom: 5vh;
+  .permission {
+    color: red;
+  }
+}

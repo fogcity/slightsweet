@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npx lerna run dev",
+    "dev:wapp": "npx lerna run dev --scope=wapp",
+    "dev:server": "npx lerna run dev --scope=server"
+  },
+  "devDependencies": {
+    "lerna": "^7.1.5"
+  }
+}

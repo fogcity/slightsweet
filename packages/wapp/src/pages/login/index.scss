@@ -1,0 +1,48 @@
+.login-container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title,.sub-title,.slogan,login-button {
+  position: absolute;
+  top:10vh;
+  width: 80vw;
+}
+
+.sub-title {
+  top:25vh;
+  font-weight: 600;
+  width: 80vw;
+  font-size:1.2rem;
+}
+
+.slogan {
+  font-size:1.4rem;
+  top:15vh;
+  font-weight: 700;
+  width: 80vw;
+}
+
+.login-button{
+  width:80vw;
+  top:-15vh
+}
+
+.permission-container {
+  text-align: center;
+  width: 80vw;
+  left:10vw;
+  color:#666;
+  position: absolute;
+  bottom: 5vh;
+  font-size: 0.9rem;
+  input{width:2em}
+  .permission {
+    font-weight: 600;
+    color:#a21522
+  }
+}
